@@ -1,0 +1,36 @@
+.title {
+    text-align: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1px;
+}
+.dogs > img {
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 10px;
+    transition: transform 1000ms;
+}
+.dogs:hover{
+    transform: scale(1.1);
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.about > img {
+    width: 600px;
+    height: auto;
+}
+.back {
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-weight: bold;
+    width: 100px;
+    text-align: center;
+  }
